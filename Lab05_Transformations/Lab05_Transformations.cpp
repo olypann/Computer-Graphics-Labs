@@ -17,6 +17,8 @@ int main( void )
     // Window creation - you shouldn't need to change this code
     // -------------------------------------------------------------------------
     // Initialise GLFW
+    // 
+    //testing git
     if( !glfwInit() )
     {
         fprintf( stderr, "Failed to initialize GLFW\n" );
