@@ -3,6 +3,15 @@
   "WorkspaceRootPath": "D:\\Computer-Graphics-Labs\\build\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC8BAE44-69EE-3C23-9B54-02F4BD0CFDF0}|Lab03_Textures.vcxproj|D:\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8BAE44-69EE-3C23-9B54-02F4BD0CFDF0}|Lab03_Textures.vcxproj|D:\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8BAE44-69EE-3C23-9B54-02F4BD0CFDF0}|Lab03_Textures.vcxproj|D:\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9D430FB-67A7-3B63-AA06-09036212602B}|Lab05_Transformations.vcxproj|D:\\Computer-Graphics-Labs\\Lab05_Transformations\\Lab05_Transformations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -19,11 +28,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fragmentShader.glsl",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\fragmentShader.glsl",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl",
+              "RelativeToolTip": "..\\Lab03_Textures\\fragmentShader.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-12T15:36:55.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vertexShader.glsl",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\vertexShader.glsl",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl",
+              "RelativeToolTip": "..\\Lab03_Textures\\vertexShader.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-12T15:35:07.036Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lab03_Textures.cpp",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\Lab03_Textures.cpp",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp",
+              "RelativeToolTip": "..\\Lab03_Textures\\Lab03_Textures.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAQwEwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T15:10:32.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Lab05_Transformations.cpp",
               "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab05_Transformations\\Lab05_Transformations.cpp",
               "RelativeDocumentMoniker": "..\\Lab05_Transformations\\Lab05_Transformations.cpp",
@@ -36,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Lab02_Basic_shapes.cpp",
               "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
               "RelativeDocumentMoniker": "..\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
@@ -44,12 +96,11 @@
               "RelativeToolTip": "..\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-12T14:37:23.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T14:37:23.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "fragmentShader.glsl",
               "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\fragmentShader.glsl",
               "RelativeDocumentMoniker": "..\\Lab02_Basic_shapes\\fragmentShader.glsl",
@@ -57,8 +108,7 @@
               "RelativeToolTip": "..\\Lab02_Basic_shapes\\fragmentShader.glsl",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-12T14:37:20.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T14:37:20.82Z"
             }
           ]
         }
