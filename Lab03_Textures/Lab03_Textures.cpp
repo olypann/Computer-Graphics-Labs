@@ -57,25 +57,48 @@ int main( void )
 	glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
     
     // Define vertices
-    const float vertices[] = {
-        // x     y     z
-        -0.5f, -0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f,
-         0.5f,  0.5f, 0.0f,
-        -0.5f, -0.5f, 0.0f,
-         0.5f,  0.5f, 0.0f,
-        -0.5f,  0.5f, 0.0f
+    //const float vertices[] = {
+    //    // x     y     z
+    //    -0.5f, -0.5f, 0.0f,
+    //     0.5f, -0.5f, 0.0f,
+    //     0.5f,  0.5f, 0.0f,
+    //    -0.5f, -0.5f, 0.0f,
+    //     0.5f,  0.5f, 0.0f,
+    //    -0.5f,  0.5f, 0.0f
+    //};
+
+    //const float uv[] = {
+    //    // u   v
+    //    0.0f,  0.0f,    // triangle 1
+    //    1.0f,  0.0f,
+    //    1.0f,  1.0f,
+    //    0.0f,  0.0f,    // triangle 2
+    //    1.0f,  1.0f,
+    //    0.0f,  1.0f
+    //};
+
+
+    static const float vertices[] = {
+        // x     y     z      
+        -0.5f, -0.5f, 0.0f,      
+         0.5f, -0.5f, 0.0f,     
+         0.5f,  0.5f, 0.0f,      
+        -0.5f,  0.5f, 0.0f      
     };
 
-    const float uv[] = {
-        // u   v
-        0.0f,  0.0f,    // triangle 1
-        1.0f,  0.0f,
-        1.0f,  1.0f,
-        0.0f,  0.0f,    // triangle 2
-        1.0f,  1.0f,
-        0.0f,  1.0f
+    static const float uv[] = {
+        // u    v      
+        0.0f,  0.0f,  
+        2.0f,  0.0f,  
+        2.0f,  2.0f,  
+        0.0f,  2.0f,  
     };
+
+    static const unsigned int indices[] = {
+        0, 1, 2,  
+        0, 2, 3   
+    };
+
   
     // Create the Vertex Array Object (VAO)
     unsigned int VAO;
@@ -93,6 +116,11 @@ int main( void )
     glBindBuffer(GL_ARRAY_BUFFER, uvBuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(uv), uv, GL_STATIC_DRAW);
 
+    unsigned int EBO;
+    glGenBuffers(1, &EBO);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
     
     // Compile shader program
     unsigned int shaderID;
@@ -108,7 +136,9 @@ int main( void )
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_2D, texture);
 
-    const char* path = "../assets/crate.jpg";
+    const char* path = "../assets/mario.png";
+
+
     int width, height, nChannels;
     stbi_set_flip_vertically_on_load(true);
     unsigned char* data = stbi_load(path, &width, &height, &nChannels, 0);
@@ -121,8 +151,8 @@ int main( void )
 
 
 
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
 
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
     glGenerateMipmap(GL_TEXTURE_2D);
 
     stbi_image_free(data);
@@ -154,8 +184,12 @@ int main( void )
 
         
         // Draw the triangle
-        glDrawArrays(GL_TRIANGLES, 0, sizeof(vertices) / sizeof(float));
+        /*glDrawArrays(GL_TRIANGLES, 0, sizeof(vertices) / sizeof(float));
+        glDisableVertexAttribArray(0);*/
+
+        glDrawElements(GL_TRIANGLES, sizeof(indices) / sizeof(unsigned int), GL_UNSIGNED_INT, 0);
         glDisableVertexAttribArray(0);
+        glDisableVertexAttribArray(1);
         
 		// Swap buffers
 		glfwSwapBuffers(window);
