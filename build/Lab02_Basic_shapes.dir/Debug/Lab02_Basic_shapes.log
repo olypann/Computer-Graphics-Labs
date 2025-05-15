@@ -1,3 +1,2 @@
-﻿  Building Custom Rule D:/Computer-Graphics-Labs/CMakeLists.txt
-  Lab02_Basic_shapes.cpp
-  Lab02_Basic_shapes.vcxproj -> D:\Computer-Graphics-Labs\build\Debug\Lab02_Basic_shapes.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab02_Basic_shapes.dir\Debug\) contains files shared from another project (Lab02_Basic_shapes.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Lab02_Basic_shapes.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab02_Basic_shapes.exe

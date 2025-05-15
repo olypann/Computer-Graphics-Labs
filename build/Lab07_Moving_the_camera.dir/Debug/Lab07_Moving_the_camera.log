@@ -1,0 +1,117 @@
+﻿  Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/CMakeLists.txt
+  Lab07_Moving_the_camera.cpp
+  maths.cpp
+  camera.cpp
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,8): error C2146: syntax error: missing ';' before identifier 'camera'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,15): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,44): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(20,5): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(20,15): error C3646: 'position': unknown override specifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(20,24): error C2059: syntax error: '='
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(20,26): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(20,53): error C2238: unexpected token(s) preceding ';'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(21,5): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(21,15): error C3646: 'rotation': unknown override specifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(21,24): error C2059: syntax error: '='
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(21,26): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(21,53): error C2238: unexpected token(s) preceding ';'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(22,5): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(22,15): error C3646: 'scale': unknown override specifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(22,24): error C2059: syntax error: '='
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(22,26): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(22,53): error C2238: unexpected token(s) preceding ';'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,5): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,10): error C2065: 'vec3': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,15): error C2146: syntax error: missing ';' before identifier 'positions'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,15): error C2065: 'positions': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,25): error C2059: syntax error: ']'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(218,29): error C2143: syntax error: missing ';' before '{'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(219,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(219,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(220,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(220,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(221,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(221,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(222,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(222,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(223,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(223,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(224,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(224,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(225,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(225,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(226,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(226,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(227,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(227,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(228,9): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(228,14): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(229,5): error C2143: syntax error: missing ';' before '}'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(237,16): error C2039: 'position': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(237,27): error C2065: 'positions': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(238,16): error C2039: 'rotation': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(238,27): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(238,32): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(239,16): error C2039: 'scale': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(239,27): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(239,32): error C3861: 'vec3': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(240,27): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(240,34): error C3861: 'radians': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(265,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(268,27): warning C4018: '<': signed/unsigned mismatch
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,13): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,18): error C2065: 'mat4': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,23): error C2146: syntax error: missing ';' before identifier 'translate'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,23): error C2065: 'translate': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,63): error C2039: 'position': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(271,42): error C3861: 'translate': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,13): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,18): error C2065: 'mat4': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,23): error C2146: syntax error: missing ';' before identifier 'scale'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,23): error C2065: 'scale': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,59): error C2039: 'scale': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(272,42): error C3861: 'scale': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,13): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,18): error C2065: 'mat4': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,23): error C2146: syntax error: missing ';' before identifier 'rotate'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,23): error C2065: 'rotate': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,78): error C2039: 'rotation': is not a member of 'Object'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(18,8):
+  see declaration of 'Object'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,42): error C3861: 'rotate': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,13): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,18): error C2065: 'mat4': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,23): error C2146: syntax error: missing ';' before identifier 'model'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,23): error C2065: 'model': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,35): error C2065: 'translate': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,47): error C2065: 'rotate': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(274,56): error C2065: 'scale': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,13): error C2653: 'glm': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,18): error C2065: 'mat4': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,23): error C2146: syntax error: missing ';' before identifier 'MVP'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,23): error C2065: 'MVP': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,29): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,49): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,63): error C2065: 'model': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(281,53): error C2065: 'MVP': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(281,13): error C2198: 'PFNGLUNIFORMMATRIX4FVPROC': too few arguments for call

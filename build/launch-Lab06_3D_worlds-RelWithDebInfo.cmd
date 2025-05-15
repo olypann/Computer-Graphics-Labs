@@ -1,9 +1,9 @@
-cd D:/Computer-Graphics-Labs/Lab06_3D_worlds/
+cd C:/GraphicsProgramming/Computer-Graphics-Labs/Lab06_3D_worlds/
 set 
 
 if [%1]==[--debugger] (
 	SHIFT
 )
 
-"D:\Computer-Graphics-Labs\build\RelWithDebInfo\Lab06_3D_worlds.exe"  
+"C:\GraphicsProgramming\Computer-Graphics-Labs\build\RelWithDebInfo\Lab06_3D_worlds.exe"  
 pause

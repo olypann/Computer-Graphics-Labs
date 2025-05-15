@@ -1,0 +1,51 @@
+﻿  Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/CMakeLists.txt
+  Lab10_Quaternions.cpp
+  maths.cpp
+  camera.cpp
+  model.cpp
+  light.cpp
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(23,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(23,8): error C2146: syntax error: missing ';' before identifier 'camera'
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(142,27): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(142,34): error C3861: 'radians': identifier not found
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(150,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(163,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(163,25): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(163,38): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(164,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(170,41): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(170,21): error C2660: 'Light::toShader': function does not take 1 arguments
+  C:\GraphicsProgramming\Computer-Graphics-Labs\common\light.hpp(35,10):
+  see declaration of 'Light::toShader'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(170,21):
+  while trying to match the argument list '(unsigned int)'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(173,79): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(173,9): error C2198: 'PFNGLUNIFORMMATRIX4FVPROC': too few arguments for call
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(179,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(179,42): error C2064: term does not evaluate to a function taking 1 arguments
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(180,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(180,42): error C2064: term does not evaluate to a function taking 1 arguments
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(181,35): error C2653: 'Maths': is not a class or namespace name
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(181,42): error C2064: term does not evaluate to a function taking 2 arguments
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(185,29): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(186,29): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(196,42): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(196,55): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(196,21): error C2660: 'Light::draw': function does not take 2 arguments
+  C:\GraphicsProgramming\Computer-Graphics-Labs\common\light.hpp(38,10):
+  see declaration of 'Light::draw'
+  C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(196,21):
+  while trying to match the argument list '(unsigned int, Model)'
+  
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(219,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(219,42): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(222,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(222,42): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(225,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(225,42): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(228,9): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(228,42): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(239,5): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(240,5): error C2065: 'camera': undeclared identifier
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab10_Quaternions\Lab10_Quaternions.cpp(243,5): error C2065: 'camera': undeclared identifier

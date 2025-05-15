@@ -3,30 +3,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>D:\Computer-Graphics-Labs\build\Debug\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>D:/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>C:/GraphicsProgramming/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>D:\Computer-Graphics-Labs\build\Release\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\GraphicsProgramming\Computer-Graphics-Labs\build\Release\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>D:/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>C:/GraphicsProgramming/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>D:\Computer-Graphics-Labs\build\MinSizeRel\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\GraphicsProgramming\Computer-Graphics-Labs\build\MinSizeRel\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>D:/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>C:/GraphicsProgramming/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>D:\Computer-Graphics-Labs\build\RelWithDebInfo\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\GraphicsProgramming\Computer-Graphics-Labs\build\RelWithDebInfo\Lab04_Vectors_and_matrices.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>D:/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>C:/GraphicsProgramming/Computer-Graphics-Labs/Lab04_Vectors_and_matrices/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 
 </Project>

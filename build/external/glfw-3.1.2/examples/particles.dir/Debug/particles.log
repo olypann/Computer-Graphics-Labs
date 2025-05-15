@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/external/glfw-3.1.2/examples/CMakeLists.txt
+  particles.c
+  tinycthread.c
+  getopt.c
+  particles.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\external\glfw-3.1.2\examples\Debug\particles.exe

@@ -1,6 +1,6 @@
-^D:\COMPUTER-GRAPHICS-LABS\BUILD\CMAKEFILES\C0E44F27478880CC1783D01A56DA240A\GENERATE.STAMP.RULE
+^C:\GRAPHICSPROGRAMMING\COMPUTER-GRAPHICS-LABS\BUILD\CMAKEFILES\13D2B80340EC77D0BD5D079F3AC90D65\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Computer-Graphics-Labs/build/Computer_Graphics_Labs.sln
+C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/Computer_Graphics_Labs.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
