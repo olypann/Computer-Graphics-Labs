@@ -272,7 +272,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
+"C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64 (1)\cmake-3.29.5-windows-x86_64\bin\cmake.exe" -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,7 +285,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
+"C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64 (1)\cmake-3.29.5-windows-x86_64\bin\cmake.exe" -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,7 +298,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
+"C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64 (1)\cmake-3.29.5-windows-x86_64\bin\cmake.exe" -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,7 +311,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
+"C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64 (1)\cmake-3.29.5-windows-x86_64\bin\cmake.exe" -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

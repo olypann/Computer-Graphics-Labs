@@ -9,6 +9,7 @@
 #include <common/maths.hpp>
 #include <common/camera.hpp>
 
+
 // Function prototypes
 void keyboardInput(GLFWwindow *window);
 
@@ -56,6 +57,9 @@ int main( void )
     // End of window creation
     // =========================================================================
     
+    // Enable depth test
+    glEnable(GL_DEPTH_TEST);
+
     // Ensure we can capture keyboard inputs
     glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
     
@@ -207,7 +211,8 @@ int main( void )
         
         // Clear the window
         glClearColor(0.2f, 0.2f, 0.2f, 0.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        //glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         // Send the VBO to the GPU
         glEnableVertexAttribArray(0);
@@ -218,6 +223,29 @@ int main( void )
         glEnableVertexAttribArray(1);
         glBindBuffer(GL_ARRAY_BUFFER, uvBuffer);
         glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 0, (void*)0);
+
+        // Calculate the model matrix
+        float angle = Maths::radians(glfwGetTime() * 360.0f / 3.0f);
+        glm::mat4 translate = Maths::translate(glm::vec3(0.0f, 0.0f, -2.0f));
+        glm::mat4 scale = Maths::scale(glm::vec3(0.5f, 0.5f, 0.5f));
+        glm::mat4 rotate = Maths::rotate(angle, glm::vec3(0.0f, 1.0f, 0.0f));
+        glm::mat4 model = translate * rotate * scale;
+
+        // Calculate the view matrix
+        glm::mat4 view = glm::lookAt(glm::vec3(1.0f, 1.0f, 1.0f),  // eye
+            glm::vec3(0.0f, 0.0f, -2.0f), // target
+            glm::vec3(0.0f, 1.0f, 0.0f)); // worldUp
+
+        // Calculate orthographic projection matrix
+        //glm::mat4 projection = glm::ortho(-2.0f, 2.0f, -2.0f, 2.0f, 0.0f, 10.0f);
+        // Calculate perspective projection matrix
+        glm::mat4 projection = glm::perspective(Maths::radians(45.0f), 1024.0f / 768.0f, 0.2f, 10.0f);
+
+        // Send MVP matrix to the vertex shader
+        glm::mat4 MVP = projection * view * model;
+        glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+
+
         
         // Draw the triangles
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);

@@ -186,8 +186,8 @@ void mouseInput(GLFWwindow *window)
     glfwSetCursorPos(window, 1024 / 2, 768 / 2);
     
     // Update yaw and pitch angles
-    camera.yaw   += 0.005f * float(xPos - 1024 / 2);
-    camera.pitch += 0.005f * float(768 / 2 - yPos);
+    camera.yaw   += 0.001f * float(xPos - 1024 / 2);
+    camera.pitch += 0.001f * float(768 / 2 - yPos);
     
     // Calculate camera vectors from the yaw and pitch angles
     camera.calculateCameraVectors();

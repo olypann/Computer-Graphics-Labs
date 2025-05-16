@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/GraphicsProgramming/Computer-Graphics-Labs/CMakeLists.txt
-  Lab06_3D_worlds.cpp
-  maths.cpp
+﻿  Lab06_3D_worlds.cpp
   camera.cpp
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab06_3D_worlds\Lab06_3D_worlds.cpp(228,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Lab06_3D_worlds.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab06_3D_worlds.exe

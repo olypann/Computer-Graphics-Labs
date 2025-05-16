@@ -1,2 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab05_Transformations.dir\Debug\) contains files shared from another project (Lab05_Transformations.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Lab05_Transformations.cpp
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab05_Transformations\Lab05_Transformations.cpp(154,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Lab05_Transformations.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab05_Transformations.exe

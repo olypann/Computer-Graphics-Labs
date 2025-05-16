@@ -29,6 +29,7 @@ int main( void )
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     // Open a window and create its OpenGL context
+    // Open a window and create its OpenGL context
     GLFWwindow* window;
     window = glfwCreateWindow(1024, 768, "Lab02 Basic Shapes", NULL, NULL);
     

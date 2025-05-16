@@ -1,6 +1,6 @@
 ^C:\GRAPHICSPROGRAMMING\COMPUTER-GRAPHICS-LABS\EXTERNAL\GLFW-3.1.2\SRC\CMAKELISTS.TXT
 setlocal
-C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64\cmake-3.29.5-windows-x86_64\bin\cmake.exe -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+"C:\Users\olypa\Downloads\cmake-3.29.5-windows-x86_64 (1)\cmake-3.29.5-windows-x86_64\bin\cmake.exe" -SC:/GraphicsProgramming/Computer-Graphics-Labs -BC:/GraphicsProgramming/Computer-Graphics-Labs/build --check-stamp-file C:/GraphicsProgramming/Computer-Graphics-Labs/build/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

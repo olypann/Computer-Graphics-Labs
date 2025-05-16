@@ -141,6 +141,33 @@ int main( void )
         glEnableVertexAttribArray(1);
         glBindBuffer(GL_ARRAY_BUFFER, uvBuffer);
         glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 0, (void*)0);
+
+        // Define the translation matrix
+        
+        /*glm::mat4 translate = Maths::translate(glm::vec3(0.4f, 0.3f, 0.0f));
+   
+        glm::mat4 scale = Maths::scale(glm::vec3(0.4f, 0.3f, 1.0f));
+
+        float angle = Maths::radians(45.0f);
+        glm::mat4 rotate = Maths::rotate(angle, glm::vec3(0.0f, 0.0f, 1.0f));*/
+        // Animate rectangle
+        float angle = Maths::radians(glfwGetTime() * 360.0f / 3.0f);
+
+        glm::mat4 translate = Maths::translate(glm::vec3(0.4f, 0.3f, 0.0f));
+
+        glm::mat4 scale = Maths::scale(glm::vec3(0.4f, 0.3f, 0.0f));
+
+        glm::mat4 rotate = Maths::rotate(angle, glm::vec3(0.0f, 0.0f, 1.0f));
+
+
+
+        // Send the transformation matrix to the shader
+        //glm::mat4 transformation = translate;
+        glm::mat4 transformation = translate * rotate * scale;
+        unsigned int transformationID = glGetUniformLocation(shaderID, "transformation");
+        glUniformMatrix4fv(transformationID, 1, GL_FALSE, &transformation[0][0]);
+
+
         
         // Draw the triangles
         glDrawElements(GL_TRIANGLES, sizeof(indices) / sizeof(unsigned int),
