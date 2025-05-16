@@ -1,4 +1,5 @@
 ﻿  Lab09_Normal_maps.cpp
-  camera.cpp
+  light.cpp
+  model.cpp
 C:\GraphicsProgramming\Computer-Graphics-Labs\Lab09_Normal_maps\Lab09_Normal_maps.cpp(164,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Lab09_Normal_maps.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab09_Normal_maps.exe

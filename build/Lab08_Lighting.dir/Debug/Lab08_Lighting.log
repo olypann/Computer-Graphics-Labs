@@ -1,3 +1,3 @@
 ﻿  Lab08_Lighting.cpp
-C:\GraphicsProgramming\Computer-Graphics-Labs\Lab08_Lighting\Lab08_Lighting.cpp(114,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\GraphicsProgramming\Computer-Graphics-Labs\Lab08_Lighting\Lab08_Lighting.cpp(123,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Lab08_Lighting.vcxproj -> C:\GraphicsProgramming\Computer-Graphics-Labs\build\Debug\Lab08_Lighting.exe
